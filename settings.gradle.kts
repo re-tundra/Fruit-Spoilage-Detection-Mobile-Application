@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Tensorflow_fruit_image_classification_java"
+rootProject.name = "FruitAlert"
 include(":app")
  

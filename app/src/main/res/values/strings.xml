@@ -36,6 +36,8 @@
     <string name="title_activity_live_camera">LiveCameraActivity</string>
 
     <string name="setting">Settings</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
     <string-array name="mode_selection">
         <item>Classification</item>
         <item>Image Segmentation</item>

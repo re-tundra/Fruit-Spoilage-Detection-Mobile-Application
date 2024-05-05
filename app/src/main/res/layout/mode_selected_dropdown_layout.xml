@@ -6,8 +6,5 @@
     android:fontFamily="@font/open_sans"
     android:padding="5dp"
     android:textSize="16sp"
-    android:textColor="#000"
-    >
-
-
-</TextView>
+    android:background="#FADEA5"
+    android:textColor="#000" />

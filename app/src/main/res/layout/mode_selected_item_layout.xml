@@ -4,10 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fontFamily="@font/open_sans"
-    android:textColor="#4EC30E"
+    android:textColor="#FF2828"
+    android:textStyle="bold"
     android:padding="5dp"
-    android:textSize="20sp"
-    >
-
-
-</TextView>
+    android:textSize="20sp" />

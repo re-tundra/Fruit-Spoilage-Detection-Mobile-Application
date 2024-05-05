@@ -16,17 +16,13 @@
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            app:title="FruitAlert"
+            app:title="@string/app_name"
             app:titleTextColor="#000000"
+            android:background="#F8B11B"
             app:titleTextAppearance="@style/Menu_Appearance"
             android:layout_height="wrap_content"
-            android:elevation="5dp"
+            android:elevation="25dp" />
 
-            />
-        <View android:layout_width="match_parent"
-            android:layout_height="5dp"
-            android:background="@drawable/bottom_border_orange"
-            />
     </com.google.android.material.appbar.AppBarLayout>
 
     <Button

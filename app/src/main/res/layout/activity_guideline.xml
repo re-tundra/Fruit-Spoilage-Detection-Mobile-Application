@@ -24,7 +24,7 @@
 
     <TextView
         android:id="@+id/skip"
-        android:layout_width="44dp"
+        android:layout_width="wrap_content"
         android:layout_height="28dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
@@ -39,7 +39,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/guideline_heading"
-        app:layout_constraintTop_toTopOf="parent"></TextView>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/guideline_heading"

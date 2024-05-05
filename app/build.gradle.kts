@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.tensorflow_fruit_image_classification_java"
+    namespace = "com.fruitalert"
     compileSdk = 34
 
     defaultConfig {
         buildConfigField("int", "AndroidVersion", "14")
-        applicationId = "com.example.tensorflow_fruit_image_classification_java"
-        minSdk = 30
+        applicationId = "com.fruitalert"
+        minSdk = 28
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -36,14 +36,10 @@ android {
     }
     buildFeatures {
         mlModelBinding = true
-        compose = true
         buildConfig = true
     }
     kotlinOptions {
         jvmTarget = "1.8"
-    }
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.4.3"
     }
     packaging {
         resources {
@@ -61,11 +57,6 @@ dependencies {
     implementation("org.tensorflow:tensorflow-lite-metadata:0.1.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
     implementation("androidx.activity:activity-compose:1.8.2")
-    implementation(platform("androidx.compose:compose-bom:2023.03.00"))
-    implementation("androidx.compose.ui:ui")
-    implementation("androidx.compose.ui:ui-graphics")
-    implementation("androidx.compose.ui:ui-tooling-preview")
-    implementation("androidx.compose.material3:material3")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
@@ -75,8 +66,4 @@ dependencies {
     implementation("androidx.camera:camera-view:1.2.2")
     implementation("androidx.activity:activity:1.2.0")
     implementation("androidx.fragment:fragment:1.3.0")
-    androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
-    androidTestImplementation("androidx.compose.ui:ui-test-junit4")
-    debugImplementation("androidx.compose.ui:ui-tooling")
-    debugImplementation("androidx.compose.ui:ui-test-manifest")
 }

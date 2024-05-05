@@ -19,13 +19,13 @@
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/fruitalert_icon"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Tensorflow_fruit_image_classification_java"
+        android:theme="@style/Theme.FruitAlert"
         tools:targetApi="31">
         <activity
             android:name=".LiveCameraActivity"
             android:exported="false"
             android:label="@string/title_activity_live_camera"
-            android:theme="@style/Theme.Tensorflow_fruit_image_classification_java" />
+            android:theme="@style/Theme.FruitAlert" />
         <activity
             android:name=".GuidelineActivity3"
             android:exported="false" />
