@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "FruitAlert"
+rootProject.name = "Prutas"
 include(":app")
  

@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    namespace = "com.fruitalert"
+    namespace = "com.prutas"
     compileSdk = 34
 
     defaultConfig {
         buildConfigField("int", "AndroidVersion", "14")
-        applicationId = "com.fruitalert"
+        applicationId = "com.prutas"
         minSdk = 28
         targetSdk = 34
         versionCode = 1

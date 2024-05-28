@@ -1,9 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.FruitAlert" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.Prutas" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.FruitAlert" parent="Base.Theme.FruitAlert" />
+    <style name="Theme.Prutas" parent="Base.Theme.Prutas" />
 </resources>
